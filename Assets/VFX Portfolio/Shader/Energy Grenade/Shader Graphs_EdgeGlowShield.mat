@@ -96,6 +96,8 @@ Material:
     - _ScanSpeed: 0.5
     - _ScanStrength: 2
     - _ScanWidth: 0.15
+    - _SpawnProgress: 1
+    - _SpawnSoftness: 0.05
     - _VertexOffsetStrength: 0.02
     - _VertexWaveScale: 3
     - _VertexWaveSpeed: 0.5
@@ -104,9 +106,9 @@ Material:
     - _WaveEmissionStrength: 7.22
     - _ambientNoiseMin: 0.39
     m_Colors:
-    - _AmbientColor: {r: 0, g: 1, b: 0.013191223, a: 0}
+    - _AmbientColor: {r: 0, g: 0.8134148, b: 1, a: 0}
     - _BaseColor: {r: 0, g: 0.8627448, b: 1, a: 1}
-    - _BaseColorBottom: {r: 0, g: 0.5257178, b: 0.7798742, a: 0}
+    - _BaseColorBottom: {r: 0, g: 0.29221568, b: 0.4339623, a: 0}
     - _BaseColorTop: {r: 0, g: 0.72316384, b: 1, a: 0}
     - _EdgeColor: {r: 0, g: 0.81026167, b: 0.9882353, a: 1}
     - _GlowColor: {r: 1, g: 0, b: 0.8666668, a: 0.27450982}

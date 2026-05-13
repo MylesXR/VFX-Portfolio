@@ -59,7 +59,10 @@ Material:
     - _Intersection_Power: 25
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _SpawnProgress: 1
+    - _SpawnSoftness: 0.05
+    - _Spawnprogress: 1
     m_Colors:
     - _BaseColor: {r: 0, g: 0.8376408, b: 0.8805031, a: 0}
-    - _GlowColor: {r: 0, g: 31.999996, b: 31.677212, a: 1}
+    - _GlowColor: {r: 0, g: 15.999998, b: 15.838606, a: 1}
   m_BuildTextureStacks: []
