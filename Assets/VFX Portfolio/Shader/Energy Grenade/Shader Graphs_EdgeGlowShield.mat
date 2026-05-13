@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3496127008230665777
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_EdgeGlowShield
+  m_Shader: {fileID: -6465566751694194690, guid: 6b70198976223a642b96df845426ee47,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EdgeMask:
+        m_Texture: {fileID: 2800000, guid: e401df894007fd440a39f72a533c1ab9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Glow_Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AmbientEmissionStrength: 2
+    - _AmbientNoiseMax: 0.92
+    - _AmbientNoiseScale: 0.1
+    - _AmbientNoiseSpeed: 0.005
+    - _BaseAlpha: 0.04
+    - _BaseEmissionStrength: 10
+    - _BaseGradientPower: 0.25
+    - _EdgeSmooth: 0.02
+    - _EdgeStrength: 60
+    - _EdgeThreshold: 0
+    - _FresnelPower: 3
+    - _FresnelStrength: 1.5
+    - _IntersectionDistance: 0.05
+    - _IntersectionPower: 0.006
+    - _IntersectionStrength: 25
+    - _Intersection_Power: 0.01
+    - _NoiseScale: 6
+    - _NoiseStrength: 0.7
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _RippleAmount: 1
+    - _RippleBottom: -1
+    - _RippleFrequency: 1
+    - _RippleSharpness: 6
+    - _RippleSpeed: 0.25
+    - _RippleStrength: 0.1
+    - _RippleTOp: 1
+    - _RippleTop: 1
+    - _RippleWidth: 0.2
+    - _ScanScale: 2
+    - _ScanSpeed: 0.5
+    - _ScanStrength: 2
+    - _ScanWidth: 0.15
+    - _VertexOffsetStrength: 0.02
+    - _VertexWaveScale: 3
+    - _VertexWaveSpeed: 0.5
+    - _VertexWaveWidth: 0.2
+    - _WaveAlphaBoost: 0.25
+    - _WaveEmissionStrength: 7.22
+    - _ambientNoiseMin: 0.39
+    m_Colors:
+    - _AmbientColor: {r: 0, g: 1, b: 0.013191223, a: 0}
+    - _BaseColor: {r: 0, g: 0.8627448, b: 1, a: 1}
+    - _BaseColorBottom: {r: 0, g: 0.5257178, b: 0.7798742, a: 0}
+    - _BaseColorTop: {r: 0, g: 0.72316384, b: 1, a: 0}
+    - _EdgeColor: {r: 0, g: 0.81026167, b: 0.9882353, a: 1}
+    - _GlowColor: {r: 1, g: 0, b: 0.8666668, a: 0.27450982}
+    - _IntersectionColor: {r: 0, g: 0.9452052, b: 1, a: 1}
+    - _WaveColor: {r: 0.03393838, g: 0.610087, b: 0.8301887, a: 0}
+  m_BuildTextureStacks: []

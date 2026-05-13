@@ -590,6 +590,27 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
+    "m_ObjectId": "1032f8c062504e0daa59862d8c7bc252",
+    "m_Id": -1971909169,
+    "m_DisplayName": "Offset",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Offset",
+    "m_StageCapability": 2,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "11825d296d534abda91b4d50c42a94b7",
     "m_Id": 0,
@@ -1818,6 +1839,9 @@
     },
     "m_Slots": [
         {
+            "m_Id": "1032f8c062504e0daa59862d8c7bc252"
+        },
+        {
             "m_Id": "a90d67f492de4faba27a3d18b85907c9"
         }
     ],
@@ -1830,8 +1854,12 @@
         "m_SerializableColors": []
     },
     "m_SerializedSubGraph": "{\n    \"subGraph\": {\n        \"fileID\": -5475051401550479605,\n        \"guid\": \"f07bd8d9787c8b345b52c287020b9ea5\",\n        \"type\": 3\n    }\n}",
-    "m_PropertyGuids": [],
-    "m_PropertyIds": [],
+    "m_PropertyGuids": [
+        "67d9e478-1b60-4c07-aef9-2b1e790b82bf"
+    ],
+    "m_PropertyIds": [
+        -1971909169
+    ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
 }
