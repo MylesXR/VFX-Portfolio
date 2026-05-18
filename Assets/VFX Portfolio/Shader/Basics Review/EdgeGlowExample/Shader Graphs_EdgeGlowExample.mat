@@ -61,8 +61,9 @@ Material:
     - _QueueOffset: 0
     - _SpawnProgress: 1
     - _SpawnSoftness: 0.05
+    - _SpawnStart: 0
     - _Spawnprogress: 1
     m_Colors:
     - _BaseColor: {r: 0, g: 0.8376408, b: 0.8805031, a: 0}
-    - _GlowColor: {r: 0, g: 15.999998, b: 15.838606, a: 1}
+    - _GlowColor: {r: 0, g: 127.999985, b: 126.70885, a: 1}
   m_BuildTextureStacks: []

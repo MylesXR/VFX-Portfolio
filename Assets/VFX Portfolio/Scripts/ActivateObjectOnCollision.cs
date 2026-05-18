@@ -18,12 +18,12 @@ public class ActivateObjectOnCollision : MonoBehaviour
     [Header("Options")]
     [SerializeField] private bool activateOnlyOnce = true;
     [SerializeField] private bool disableThisObjectAfterActivation = false;
-
+    [SerializeField] private bool affectRigidbody = true;
     private bool hasActivated;
 
     private void Awake()
     {
-        if (targetRigidbody == null)
+        if (affectRigidbody && targetRigidbody == null)
             targetRigidbody = GetComponent<Rigidbody>();
     }
 
@@ -37,7 +37,7 @@ public class ActivateObjectOnCollision : MonoBehaviour
 
         hasActivated = true;
 
-        if (targetRigidbody != null && makeKinematicOnCollision)
+        if (affectRigidbody && targetRigidbody != null && makeKinematicOnCollision)
         {
             if (clearVelocityOnCollision)
             {

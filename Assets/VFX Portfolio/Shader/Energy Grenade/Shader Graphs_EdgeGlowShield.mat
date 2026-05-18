@@ -84,13 +84,13 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RippleAmount: 1
-    - _RippleBottom: -1
+    - _RippleBottom: 1
     - _RippleFrequency: 1
     - _RippleSharpness: 6
     - _RippleSpeed: 0.25
     - _RippleStrength: 0.1
     - _RippleTOp: 1
-    - _RippleTop: 1
+    - _RippleTop: -1
     - _RippleWidth: 0.2
     - _ScanScale: 2
     - _ScanSpeed: 0.5
@@ -98,12 +98,13 @@ Material:
     - _ScanWidth: 0.15
     - _SpawnProgress: 1
     - _SpawnSoftness: 0.05
+    - _SpawnStart: 0.35
     - _VertexOffsetStrength: 0.02
     - _VertexWaveScale: 3
     - _VertexWaveSpeed: 0.5
     - _VertexWaveWidth: 0.2
     - _WaveAlphaBoost: 0.25
-    - _WaveEmissionStrength: 7.22
+    - _WaveEmissionStrength: 100
     - _ambientNoiseMin: 0.39
     m_Colors:
     - _AmbientColor: {r: 0, g: 0.8134148, b: 1, a: 0}
